@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "IBM Plex Sans", "IBM Plex Sans Thai", sans-serif !important;
+  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
+}
+
+/* English Font */
+@font-face {
+  font-family: "FontLight";
+  src: url("./Fonts/IBMPlexSans-Light.ttf") format("truetype");
+  font-style: light;
+}
+
+/* Thai Font */
+@font-face {
+  font-family: "FontThaiLight";
+  src: url("./Fonts/IBMPlexSansThai-Light.ttf") format("truetype");
+  font-style: medium;
+}
+
+/* English Font */
+@font-face {
+  font-family: "FontRegular";
+  src: url("./Fonts/IBMPlexSans-Regular.ttf") format("truetype");
+  font-style: medium;
+}
+
+/* Thai Font */
+@font-face {
+  font-family: "FontThaiRegular";
+  src: url("./Fonts/IBMPlexSansThai-Regular.ttf") format("truetype");
+  font-style: medium;
+}
+
+/* English Font */
+@font-face {
+  font-family: "FontMedium";
+  src: url("./Fonts/IBMPlexSans-Medium.ttf") format("truetype");
+  font-style: medium;
+}
+
+/* Thai Font */
+@font-face {
+  font-family: "FontThaiMedium";
+  src: url("./Fonts/IBMPlexSansThai-Medium.ttf") format("truetype");
+  font-style: medium;
+}
+
+/* English Font */
+@font-face {
+  font-family: "FontSemiBold";
+  src: url("./Fonts/IBMPlexSans-SemiBold.ttf") format("truetype");
+  font-style: medium;
+}
+
+/* Thai Font */
+@font-face {
+  font-family: "FontThaiSemiBold";
+  src: url("./Fonts/IBMPlexSansThai-SemiBold.ttf") format("truetype");
+  font-style: medium;
+}
+
+/* English Font */
+@font-face {
+  font-family: "FontBold";
+  src: url("./Fonts/IBMPlexSans-Bold.ttf") format("truetype");
+  font-style: medium;
+}
+
+/* Thai Font */
+@font-face {
+  font-family: "FontThaiBold";
+  src: url("./Fonts/IBMPlexSansThai-Bold.ttf") format("truetype");
+  font-style: medium;
+}
+
+/* Anakotmai font */
+@font-face {
+  font-family: "FontLightTH";
+  src: url("./Fonts/Anakotmai-Light.ttf") format("truetype");
+  font-style: light;
+}
+
+@font-face {
+  font-family: "FontMediumTH";
+  src: url("./Fonts/Anakotmai-Medium.ttf") format("truetype");
+  font-style: medium;
+}
+
+@font-face {
+  font-family: "FontBoldTH";
+  src: url("./Fonts/Anakotmai-Bold.ttf") format("truetype");
+  font-style: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 !important;
+  font-family: "FontRegular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#cluster-container {
+  max-width: -webkit-fill-available;
+  /* padding-left: 0px;
+  padding-right: 0px; */
+}
+
+#cluster-gutter {
+  --mdb-gutter-x: "unset !important";
+}
+
+.px-btn {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.p-6 {
+  padding: 4rem !important;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+
+.pt-6 {
+  padding-top: 4rem !important;
+}
+
+.pt-7 {
+  padding-top: 4.5rem !important;
+}
+
+.pb-6 {
+  padding-top: 2rem !important;
+}
+
+.py-6 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.mx-7 {
+  margin-right: 3.5rem !important;
+  margin-left: 3.5rem !important;
+}
+
+.gx-6 {
+  --mdb-gutter-x: 5rem !important;
+}
+
+.btn-outline-primary {
+  border-color: "#EB562E" !important;
+}
+
+/* Floating Column */
+.floating-column {
+  position: sticky;
+  top: 100px; /* Adjust this value as needed */
+  transition: top 0.3s ease-in-out;
+}
+
+.floating {
+  top: 20px; /* Adjust this value as needed */
+}
+
+/* navbar  */
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  padding: 0px !important;
+}
+
+/* Add this CSS to your stylesheets */
+.navbar-scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+
+ol,
+ul,
+menu {
+  list-style: disc !important;
+  margin: 0;
+  padding: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
