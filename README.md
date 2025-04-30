@@ -151,8 +151,8 @@ Sep 01 08:28:39 boss-dev-vm bash[19474]: └────────────
 Sep 01 08:28:39 boss-dev-vm bash[19474]: Actions available
 Sep 01 08:28:39 boss-dev-vm bash[19474]: Welcome back!
 Sep 01 08:28:39 boss-dev-vm bash[19474]: To manage your project 🚀, go to the administrat>
-Sep 01 08:28:39 boss-dev-vm bash[19474]: https://precise-moments-blink-districts.trycloudflare.com /admin
+Sep 01 08:28:39 boss-dev-vm bash[19474]: https://focus-targeted-variables-beverage.trycloudflare.com /admin
 Sep 01 08:28:39 boss-dev-vm bash[19474]: To access the server ⚡️, go to:
-Sep 01 08:28:39 boss-dev-vm bash[19474]: https://precise-moments-blink-districts.trycloudflare.com
+Sep 01 08:28:39 boss-dev-vm bash[19474]: https://focus-targeted-variables-beverage.trycloudflare.com
 
 # masterplan-kmutt
