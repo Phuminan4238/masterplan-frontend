@@ -258,7 +258,7 @@ function FooterDesktop() {
               </div>
 
               <p className="text-md pt-2 mb-0 text-white">
-                Copyright 2023 kmutt-masterplan, All rights reserved
+                Copyright 2025 kmutt-masterplan, All rights reserved
               </p>
             </MDBCol>
           </MDBRow>
@@ -273,7 +273,7 @@ function FooterDesktop() {
                       : "FontThaiRegular",
                 }}
               >
-               Copyright 2023 kmutt-masterplan, All rights reserved
+               Copyright 2025 kmutt-masterplan, All rights reserved
               </p>
             </MDBCol>
           </MDBRow> */}
@@ -467,7 +467,7 @@ function FooterMobile() {
                 className="text-md px-0 mb-0 text-white"
                 style={{ fontFamily: "FontRegular" }}
               >
-                Copyright 2023 kmutt-masterplan, All rights reserved
+                Copyright 2025 kmutt-masterplan, All rights reserved
               </p>
             </MDBCol>
           </MDBRow>
