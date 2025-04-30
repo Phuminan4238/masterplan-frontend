@@ -31,7 +31,7 @@ function HomeDesktop() {
     let isMounted = true;
     const instance = axios.create({
       baseURL:
-        " https://precise-moments-blink-districts.trycloudflare.com  /api/", // Update with your API URL.
+        " https://precise-moments-blink-districts.trycloudflare.com/api/", // Update with your API URL.
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -64,7 +64,7 @@ function HomeDesktop() {
     let isMounted = true;
     const instance = axios.create({
       baseURL:
-        " https://precise-moments-blink-districts.trycloudflare.com  /api/", // Update with your API URL.
+        " https://precise-moments-blink-districts.trycloudflare.com/api/", // Update with your API URL.
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -97,7 +97,7 @@ function HomeDesktop() {
     let isMounted = true;
     const instance = axios.create({
       baseURL:
-        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
+        " https://precise-moments-blink-districts.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -129,7 +129,7 @@ function HomeDesktop() {
     let isMounted = true;
     const instance = axios.create({
       baseURL:
-        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
+        " https://precise-moments-blink-districts.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -164,7 +164,7 @@ function HomeDesktop() {
     let isMounted = true;
     const instance = axios.create({
       baseURL:
-        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
+        " https://precise-moments-blink-districts.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -196,7 +196,7 @@ function HomeDesktop() {
     let isMounted = true;
     const instance = axios.create({
       baseURL:
-        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
+        " https://precise-moments-blink-districts.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -228,7 +228,7 @@ function HomeDesktop() {
     let isMounted = true;
     const instance = axios.create({
       baseURL:
-        "   https://precise-moments-blink-districts.trycloudflare.com  /api/",
+        "   https://precise-moments-blink-districts.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -260,7 +260,7 @@ function HomeDesktop() {
     let isMounted = true;
     const instance = axios.create({
       baseURL:
-        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
+        " https://precise-moments-blink-districts.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -292,7 +292,7 @@ function HomeDesktop() {
     let isMounted = true;
     const instance = axios.create({
       baseURL:
-        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
+        " https://precise-moments-blink-districts.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -324,7 +324,7 @@ function HomeDesktop() {
     let isMounted = true;
     const instance = axios.create({
       baseURL:
-        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
+        " https://precise-moments-blink-districts.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -476,7 +476,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={buildingPlan.id}
                         src={
-                          " https://precise-moments-blink-districts.trycloudflare.com  " +
+                          " https://precise-moments-blink-districts.trycloudflare.com" +
                           buildingPlan.attributes.image?.data[0]?.attributes
                             ?.url
                         }
@@ -491,7 +491,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={parkingPlan.id}
                         src={
-                          " https://precise-moments-blink-districts.trycloudflare.com  " +
+                          " https://precise-moments-blink-districts.trycloudflare.com" +
                           parkingPlan.attributes.image?.data[0]?.attributes?.url
                         }
                         style={{
@@ -505,7 +505,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={facilitiesPlan.id}
                         src={
-                          " https://precise-moments-blink-districts.trycloudflare.com  " +
+                          " https://precise-moments-blink-districts.trycloudflare.com" +
                           facilitiesPlan.attributes.image?.data[0]?.attributes
                             ?.url
                         }
@@ -520,7 +520,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={officePlan.id}
                         src={
-                          " https://precise-moments-blink-districts.trycloudflare.com  " +
+                          " https://precise-moments-blink-districts.trycloudflare.com" +
                           officePlan.attributes.image?.data[0]?.attributes?.url
                         }
                         style={{
@@ -879,7 +879,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={buildingPlan.id}
                       src={
-                        " https://precise-moments-blink-districts.trycloudflare.com  " +
+                        " https://precise-moments-blink-districts.trycloudflare.com" +
                         buildingPlan.attributes.image?.data[0]?.attributes?.url
                       }
                       style={{
@@ -893,7 +893,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={parkingPlan.id}
                       src={
-                        " https://precise-moments-blink-districts.trycloudflare.com  " +
+                        " https://precise-moments-blink-districts.trycloudflare.com" +
                         parkingPlan.attributes.image?.data[0]?.attributes?.url
                       }
                       style={{
@@ -907,7 +907,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={facilitiesPlan.id}
                       src={
-                        " https://precise-moments-blink-districts.trycloudflare.com  " +
+                        " https://precise-moments-blink-districts.trycloudflare.com" +
                         facilitiesPlan.attributes.image?.data[0]?.attributes
                           ?.url
                       }
@@ -922,7 +922,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={officePlan.id}
                       src={
-                        " https://precise-moments-blink-districts.trycloudflare.com  " +
+                        " https://precise-moments-blink-districts.trycloudflare.com" +
                         officePlan.attributes.image?.data[0]?.attributes?.url
                       }
                       style={{
