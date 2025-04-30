@@ -30,7 +30,8 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "https://rangers-court-crm-lane.trycloudflare.com/api/", // Update with your API URL.
+      baseURL:
+        " https://precise-moments-blink-districts.trycloudflare.com  /api/", // Update with your API URL.
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -62,7 +63,8 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "https://rangers-court-crm-lane.trycloudflare.com/api/", // Update with your API URL.
+      baseURL:
+        " https://precise-moments-blink-districts.trycloudflare.com  /api/", // Update with your API URL.
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -94,7 +96,8 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "https://rangers-court-crm-lane.trycloudflare.com/api/",
+      baseURL:
+        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -125,7 +128,8 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "https://rangers-court-crm-lane.trycloudflare.com/api/",
+      baseURL:
+        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -159,7 +163,8 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "https://rangers-court-crm-lane.trycloudflare.com/api/",
+      baseURL:
+        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -190,7 +195,8 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "https://rangers-court-crm-lane.trycloudflare.com/api/",
+      baseURL:
+        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -221,7 +227,8 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "  https://rangers-court-crm-lane.trycloudflare.com/api/",
+      baseURL:
+        "   https://precise-moments-blink-districts.trycloudflare.com  /api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -252,7 +259,8 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "https://rangers-court-crm-lane.trycloudflare.com/api/",
+      baseURL:
+        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -283,7 +291,8 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "https://rangers-court-crm-lane.trycloudflare.com/api/",
+      baseURL:
+        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -314,7 +323,8 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "https://rangers-court-crm-lane.trycloudflare.com/api/",
+      baseURL:
+        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -466,7 +476,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={buildingPlan.id}
                         src={
-                          "https://rangers-court-crm-lane.trycloudflare.com" +
+                          " https://precise-moments-blink-districts.trycloudflare.com  " +
                           buildingPlan.attributes.image?.data[0]?.attributes
                             ?.url
                         }
@@ -481,7 +491,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={parkingPlan.id}
                         src={
-                          "https://rangers-court-crm-lane.trycloudflare.com" +
+                          " https://precise-moments-blink-districts.trycloudflare.com  " +
                           parkingPlan.attributes.image?.data[0]?.attributes?.url
                         }
                         style={{
@@ -495,7 +505,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={facilitiesPlan.id}
                         src={
-                          "https://rangers-court-crm-lane.trycloudflare.com" +
+                          " https://precise-moments-blink-districts.trycloudflare.com  " +
                           facilitiesPlan.attributes.image?.data[0]?.attributes
                             ?.url
                         }
@@ -510,7 +520,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={officePlan.id}
                         src={
-                          "https://rangers-court-crm-lane.trycloudflare.com" +
+                          " https://precise-moments-blink-districts.trycloudflare.com  " +
                           officePlan.attributes.image?.data[0]?.attributes?.url
                         }
                         style={{
@@ -869,7 +879,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={buildingPlan.id}
                       src={
-                        "https://rangers-court-crm-lane.trycloudflare.com" +
+                        " https://precise-moments-blink-districts.trycloudflare.com  " +
                         buildingPlan.attributes.image?.data[0]?.attributes?.url
                       }
                       style={{
@@ -883,7 +893,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={parkingPlan.id}
                       src={
-                        "https://rangers-court-crm-lane.trycloudflare.com" +
+                        " https://precise-moments-blink-districts.trycloudflare.com  " +
                         parkingPlan.attributes.image?.data[0]?.attributes?.url
                       }
                       style={{
@@ -897,7 +907,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={facilitiesPlan.id}
                       src={
-                        "https://rangers-court-crm-lane.trycloudflare.com" +
+                        " https://precise-moments-blink-districts.trycloudflare.com  " +
                         facilitiesPlan.attributes.image?.data[0]?.attributes
                           ?.url
                       }
@@ -912,7 +922,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={officePlan.id}
                       src={
-                        "https://rangers-court-crm-lane.trycloudflare.com" +
+                        " https://precise-moments-blink-districts.trycloudflare.com  " +
                         officePlan.attributes.image?.data[0]?.attributes?.url
                       }
                       style={{

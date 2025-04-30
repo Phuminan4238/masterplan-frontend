@@ -31,7 +31,7 @@ function BuildingDetailDesktop() {
   useEffect(() => {
     axios
       .get(
-        `https://rangers-court-crm-lane.trycloudflare.com/api/buildings/${id}?populate=uploadfiles.fileupload&filters[zone][$eq]=south`
+        ` https://precise-moments-blink-districts.trycloudflare.com  /api/buildings/${id}?populate=uploadfiles.fileupload&filters[zone][$eq]=south`
       )
       .then((response) => {
         setSouthBuildings(response.data.data);
@@ -45,7 +45,7 @@ function BuildingDetailDesktop() {
   useEffect(() => {
     axios
       .get(
-        `https://rangers-court-crm-lane.trycloudflare.com/api/buildings/${id}?populate=*populate=*&filters[zone][$eq]=south`
+        ` https://precise-moments-blink-districts.trycloudflare.com  /api/buildings/${id}?populate=*populate=*&filters[zone][$eq]=south`
       )
       .then((response) => {
         setBuilding(response.data.data);
@@ -60,7 +60,8 @@ function BuildingDetailDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "https://rangers-court-crm-lane.trycloudflare.com/api/",
+      baseURL:
+        " https://precise-moments-blink-districts.trycloudflare.com  /api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -122,7 +123,7 @@ function BuildingDetailDesktop() {
                   className="shadow-md"
                   key={buildingPlan.id}
                   src={
-                    "https://rangers-court-crm-lane.trycloudflare.com" +
+                    " https://precise-moments-blink-districts.trycloudflare.com  " +
                       southbuildings.attributes?.uploadfiles?.data[0]
                         ?.attributes?.fileupload.data[0]?.attributes?.url || "-"
                   }
@@ -274,7 +275,7 @@ function BuildingDetailDesktop() {
                   className="shadow-md"
                   key={buildingPlan.id}
                   src={
-                    "https://rangers-court-crm-lane.trycloudflare.com" +
+                    " https://precise-moments-blink-districts.trycloudflare.com  " +
                     buildingPlan.attributes.image?.data[0]?.attributes?.url
                   }
                   style={{
