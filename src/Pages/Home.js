@@ -1521,7 +1521,7 @@ export default function Home() {
   return (
     <>
       {/* Render the Image component when on mobile */}
-      {isMobile && <HomeMobile />}
+      {/* {isMobile && <HomeMobile />} */}
 
       {/* Hide the Post component when on mobile */}
       {!isMobile && <HomeDesktop />}

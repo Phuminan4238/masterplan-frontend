@@ -472,7 +472,7 @@ export default function AboutUs() {
   return (
     <>
       {/* Render the Image component when on mobile */}
-      {isMobile && <AboutUsMobile />}
+      {/* {isMobile && <AboutUsMobile />} */}
 
       {/* Hide the Post component when on mobile */}
       {!isMobile && <AboutUsDesktop />}

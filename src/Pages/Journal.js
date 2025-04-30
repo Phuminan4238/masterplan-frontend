@@ -499,7 +499,7 @@ function JournalMobile() {
                     >
                       <NorthEastIcon
                         style={{ color: "white", fontSize: "3rem" }}
-                      ></NorthEastIcon> 
+                      ></NorthEastIcon>
                     </a>
                   </div>
                   <div>
@@ -588,7 +588,7 @@ export default function Journal() {
   return (
     <>
       {/* Render the Image component when on mobile */}
-      {isMobile && <JournalMobile />}
+      {/* {isMobile && <JournalMobile />} */}
 
       {/* Hide the Post component when on mobile */}
       {!isMobile && <JournalDesktop />}

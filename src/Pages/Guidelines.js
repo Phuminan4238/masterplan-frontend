@@ -1859,7 +1859,7 @@ export default function Guidelines() {
   return (
     <>
       {/* Render the Image component when on mobile */}
-      {isMobile && <GuidelinesMobile />}
+      {/* {isMobile && <GuidelinesMobile />} */}
 
       {/* Hide the Post component when on mobile */}
       {!isMobile && <GuidelinesDesktop />}

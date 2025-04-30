@@ -1909,7 +1909,7 @@ export default function Publication() {
   return (
     <>
       {/* Render the Image component when on mobile */}
-      {isMobile && <PublicationMobile />}
+      {/* {isMobile && <PublicationMobile />} */}
 
       {/* Hide the Post component when on mobile */}
       {!isMobile && <PublicationDesktop />}
