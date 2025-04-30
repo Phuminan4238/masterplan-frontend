@@ -31,7 +31,7 @@ function BuildingDetailDesktop() {
   useEffect(() => {
     axios
       .get(
-        `http://localhost:1337/api/buildings/${id}?populate=uploadfiles.fileupload&filters[zone][$eq]=south`
+        `https://thomson-ct-advised-statewide.trycloudflare.com/api/buildings/${id}?populate=uploadfiles.fileupload&filters[zone][$eq]=south`
       )
       .then((response) => {
         setSouthBuildings(response.data.data);
@@ -45,7 +45,7 @@ function BuildingDetailDesktop() {
   useEffect(() => {
     axios
       .get(
-        `http://localhost:1337/api/buildings/${id}?populate=*populate=*&filters[zone][$eq]=south`
+        `https://thomson-ct-advised-statewide.trycloudflare.com/api/buildings/${id}?populate=*populate=*&filters[zone][$eq]=south`
       )
       .then((response) => {
         setBuilding(response.data.data);
@@ -60,7 +60,7 @@ function BuildingDetailDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "http://localhost:1337/api/",
+      baseURL: "https://thomson-ct-advised-statewide.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -122,7 +122,7 @@ function BuildingDetailDesktop() {
                   className="shadow-md"
                   key={buildingPlan.id}
                   src={
-                    "http://localhost:1337" +
+                    "https://thomson-ct-advised-statewide.trycloudflare.com" +
                       southbuildings.attributes?.uploadfiles?.data[0]
                         ?.attributes?.fileupload.data[0]?.attributes?.url || "-"
                   }
@@ -274,7 +274,7 @@ function BuildingDetailDesktop() {
                   className="shadow-md"
                   key={buildingPlan.id}
                   src={
-                    "http://localhost:1337" +
+                    "https://thomson-ct-advised-statewide.trycloudflare.com" +
                     buildingPlan.attributes.image?.data[0]?.attributes?.url
                   }
                   style={{
@@ -293,9 +293,7 @@ function BuildingDetailDesktop() {
         </MDBContainer>
       </section>
 
-      <section>
-        
-      </section>
+      <section></section>
     </div>
   );
 }

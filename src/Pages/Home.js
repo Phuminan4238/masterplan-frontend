@@ -30,7 +30,7 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "http://localhost:1337/api/", // Update with your API URL.
+      baseURL: "https://thomson-ct-advised-statewide.trycloudflare.com/api/", // Update with your API URL.
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -62,7 +62,7 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "http://localhost:1337/api/", // Update with your API URL.
+      baseURL: "https://thomson-ct-advised-statewide.trycloudflare.com/api/", // Update with your API URL.
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -94,7 +94,7 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "http://localhost:1337/api/",
+      baseURL: "https://thomson-ct-advised-statewide.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -125,7 +125,7 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "http://localhost:1337/api/",
+      baseURL: "https://thomson-ct-advised-statewide.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -159,7 +159,7 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "http://localhost:1337/api/",
+      baseURL: "https://thomson-ct-advised-statewide.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -190,7 +190,7 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "http://localhost:1337/api/",
+      baseURL: "https://thomson-ct-advised-statewide.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -221,7 +221,7 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "  http://localhost:1337/api/",
+      baseURL: "  https://thomson-ct-advised-statewide.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -252,7 +252,7 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "http://localhost:1337/api/",
+      baseURL: "https://thomson-ct-advised-statewide.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -283,7 +283,7 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "http://localhost:1337/api/",
+      baseURL: "https://thomson-ct-advised-statewide.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -314,7 +314,7 @@ function HomeDesktop() {
   useEffect(() => {
     let isMounted = true;
     const instance = axios.create({
-      baseURL: "http://localhost:1337/api/",
+      baseURL: "https://thomson-ct-advised-statewide.trycloudflare.com/api/",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -466,7 +466,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={buildingPlan.id}
                         src={
-                          "http://localhost:1337" +
+                          "https://thomson-ct-advised-statewide.trycloudflare.com" +
                           buildingPlan.attributes.image?.data[0]?.attributes
                             ?.url
                         }
@@ -481,7 +481,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={parkingPlan.id}
                         src={
-                          "http://localhost:1337" +
+                          "https://thomson-ct-advised-statewide.trycloudflare.com" +
                           parkingPlan.attributes.image?.data[0]?.attributes?.url
                         }
                         style={{
@@ -495,7 +495,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={facilitiesPlan.id}
                         src={
-                          "http://localhost:1337" +
+                          "https://thomson-ct-advised-statewide.trycloudflare.com" +
                           facilitiesPlan.attributes.image?.data[0]?.attributes
                             ?.url
                         }
@@ -510,7 +510,7 @@ function HomeDesktop() {
                         className="shadow-md"
                         key={officePlan.id}
                         src={
-                          "http://localhost:1337" +
+                          "https://thomson-ct-advised-statewide.trycloudflare.com" +
                           officePlan.attributes.image?.data[0]?.attributes?.url
                         }
                         style={{
@@ -869,7 +869,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={buildingPlan.id}
                       src={
-                        "http://localhost:1337" +
+                        "https://thomson-ct-advised-statewide.trycloudflare.com" +
                         buildingPlan.attributes.image?.data[0]?.attributes?.url
                       }
                       style={{
@@ -883,7 +883,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={parkingPlan.id}
                       src={
-                        "http://localhost:1337" +
+                        "https://thomson-ct-advised-statewide.trycloudflare.com" +
                         parkingPlan.attributes.image?.data[0]?.attributes?.url
                       }
                       style={{
@@ -897,7 +897,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={facilitiesPlan.id}
                       src={
-                        "http://localhost:1337" +
+                        "https://thomson-ct-advised-statewide.trycloudflare.com" +
                         facilitiesPlan.attributes.image?.data[0]?.attributes
                           ?.url
                       }
@@ -912,7 +912,7 @@ function HomeDesktop() {
                       className="shadow-md"
                       key={officePlan.id}
                       src={
-                        "http://localhost:1337" +
+                        "https://thomson-ct-advised-statewide.trycloudflare.com" +
                         officePlan.attributes.image?.data[0]?.attributes?.url
                       }
                       style={{
