@@ -273,7 +273,7 @@ function FooterDesktop() {
                       : "FontThaiRegular",
                 }}
               >
-                Copyright 2023 RIPO, All rights reserved
+               Copyright 2023 kmutt-masterplan, All rights reserved
               </p>
             </MDBCol>
           </MDBRow> */}
@@ -467,7 +467,7 @@ function FooterMobile() {
                 className="text-md px-0 mb-0 text-white"
                 style={{ fontFamily: "FontRegular" }}
               >
-                Copyright 2023 RIPO, All rights reserved
+                Copyright 2023 kmutt-masterplan, All rights reserved
               </p>
             </MDBCol>
           </MDBRow>
