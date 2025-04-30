@@ -32,7 +32,7 @@ import {
   MDBBtn,
 } from "mdb-react-ui-kit";
 import logojournal from "../Images/journal-logo.svg";
-import logojournal3 from "../Images/journal-logo.png";
+// import logojournal3 from "../Images/journal-logo.png";
 import { LanguageContext } from "./LanguageContext";
 import NorthEastIcon from "@mui/icons-material/NorthEast";
 import masterlogo from "../Images/logo.png";
@@ -436,12 +436,12 @@ export default function Navbar(props) {
           <MDBContainer className={`fluid p-0 px-0 ${containerStyle["6xl"]}`}>
             <MDBCol className="col-6">
               <MDBNavbarBrand href="/">
-                <img
+                {/* <img
                   src={logojournal3}
                   style={logoStyle}
                   alt=""
                   loading="lazy"
-                />
+                /> */}
               </MDBNavbarBrand>
             </MDBCol>
             <MDBCol className="col-6">
@@ -589,11 +589,11 @@ export default function Navbar(props) {
                   <Typography variant="h6" noWrap component="div">
                     <Link to="/" onClick={handleLogoClick}>
                       <div style={containerStyle2}>
-                        <img
+                        {/* <img
                           src={logojournal3}
                           loading="lazy"
                           style={logoMobileStyle}
-                        />
+                        /> */}
                       </div>
                     </Link>
                   </Typography>
@@ -754,11 +754,11 @@ export default function Navbar(props) {
                   <Typography variant="h6" noWrap component="div">
                     <div style={containerStyle2}>
                       <Link to="/" onClick={handleLogoClick}>
-                        <img
+                        {/* <img
                           src={logojournal3}
                           aloading="lazy"
                           style={logoMobileStyle}
-                        />
+                        /> */}
                       </Link>
                     </div>
                   </Typography>
