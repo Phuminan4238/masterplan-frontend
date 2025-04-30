@@ -889,14 +889,6 @@ export default function Navbar(props) {
 
   return (
     <>
-      {/* Mobile */}
-      {isMobile && (
-        <>
-          {navbarType === "navbar1" && RenderNavbar3()}
-          {navbarType === "navbar2" && RenderNavbar4()}
-        </>
-      )}
-
       {/* Desktop */}
       {!isMobile && (
         <>
